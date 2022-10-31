@@ -15,6 +15,7 @@ import Contact from './Components/Route/Contact';
 import NavBar from './Components/Route/NavBar';
 import UseMemo from './Components/Hooks/UseMemo';
 import Login from './Components/Pages/Login';
+import Control from './Components/Pages/Control';
 
 
 function App() {
@@ -23,7 +24,9 @@ function App() {
 
       {/* <UseMemo /> */}
 
-      <Login />
+      {/* <Login /> */}
+
+      <Control />
 
     </>
   );
