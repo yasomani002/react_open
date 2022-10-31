@@ -8,8 +8,12 @@ function Control() {
     console.log(getValues()?.fname)
     const addData = (item) => {
         console.log(item)
-        setValue(text)
+
     }
+            
+
+
+
 
     const dataShow = (e) => {
         console.log(e.target.value, 'show')
